@@ -1,0 +1,1 @@
+{\n  "version": 2,\n  "builds": [\n    {\n      "src": "digistry-final-landing-page.html",\n      "use": "@vercel/static"\n    }\n  ],\n  "routes": [\n    {\n      "src": "/",\n      "dest": "digistry-final-landing-page.html"\n    }\n  ]\n}
