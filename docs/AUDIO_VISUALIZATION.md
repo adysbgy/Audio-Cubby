@@ -1,9 +1,5 @@
 # Audio Visualization - Cubby
 
-**Generated**: 2026-07-09  
-**Status**: 34 audio files, all `needs_review`
-
----
 
 ## Summary
 
@@ -105,28 +101,3 @@
 | sfx_question_hint_tap | `raw/sfx/sfx_question_hint_tap_1.wav` | 1.72s | 37.55% | 3.11% | needs_review |
 
 ---
-
-## Technical Notes
-
-- All files: 44.1kHz, 16-bit PCM WAV
-- Peak normalized to 87% max
-- 10ms fade in/out applied
-- No clipping (max peak: 87.90%)
-- No extremely quiet files flagged
-- 9 SFX rebuilt on 2026-07-09 from verified CC0 sources
-
----
-
-## Replaced SFX (2026-07-09)
-
-| Asset | Previous Source | New Source | Reason |
-|---|---|---|---|
-| sfx_interact_available_glow | RPG Sound Pack / magic1.wav | RPG Sound Pack / coin3.wav | Too fantasy/intense |
-| sfx_choice_button_tap | RPG Sound Pack / interface1.wav | RPG Sound Pack / wood-small.wav | More natural tap |
-| sfx_choice_panel_appear | RPG Sound Pack / cloth.wav | Book Flip Sounds / BookFlip2.wav | Real book/paper |
-| sfx_dialogue_box_appear | RPG Sound Pack / cloth.wav | Book Flip Sounds / BookFlip4.wav | Real book/paper |
-| sfx_interact_tap | Lokif / click_2.wav (full) | Lokif / click_2.wav (trimmed 0.22s) | Too long |
-| sfx_joystick_drag_soft | RPG Sound Pack / cloth-heavy.wav | Same (reprocessed) | Peak normalized |
-| sfx_ui_next_soft | RPG Sound Pack / interface1.wav | Same (gain reduced 0.80) | Too loud |
-| sfx_ui_back_soft | RPG Sound Pack / interface2.wav | Same (gain reduced 0.80) | Too loud |
-| sfx_text_type_soft | Lokif / click.wav (0.06s) | RPG Sound Pack / wood-small.wav (0.05s) | Better tick sound |
