@@ -23,19 +23,19 @@ Semua SFX lama sudah diganti dari source eksternal CC0/no-login yang belum dipak
 
 | Asset | File | Source | Lisensi | Status | Catatan |
 |---|---|---|---|---|---|
-| sfx_ui_next_soft | `raw/sfx/sfx_ui_next_soft_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from RPG Sound Pack interface1.wav (CC0 artisticdude). 44.1kHz PCM16, soft clean next cue. Needs manual listening. |
-| sfx_ui_back_soft | `raw/sfx/sfx_ui_back_soft_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from RPG Sound Pack interface2.wav (CC0 artisticdude). 44.1kHz PCM16, soft back cue. Needs manual listening. |
+| sfx_ui_next_soft | `raw/sfx/sfx_ui_next_soft_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from RPG Sound Pack interface1.wav (CC0 artisticdude). Reduced gain (0.80), soft UI next cue. Needs manual listening. |
+| sfx_ui_back_soft | `raw/sfx/sfx_ui_back_soft_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from RPG Sound Pack interface2.wav (CC0 artisticdude). Reduced gain (0.80), soft UI back cue. Needs manual listening. |
 | sfx_ui_disabled_soft | `raw/sfx/sfx_ui_disabled_soft_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | CC0 no-login negative cue. Needs manual listening; reject if too error-like. |
-| sfx_dialogue_box_appear | `raw/sfx/sfx_dialogue_box_appear_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from RPG Sound Pack cloth.wav (CC0 artisticdude). Resampled 48->44.1kHz, soft paper appear. Needs manual listening. |
-| sfx_text_type_soft | `raw/sfx/sfx_text_type_soft_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from Lokif GUI click.wav (CC0). Trimmed to 0.06s, very soft (8%) for repeated typewriter. Needs manual listening. |
+| sfx_dialogue_box_appear | `raw/sfx/sfx_dialogue_box_appear_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from StarNinjas BookFlip4.wav (CC0). Card/paper pop for dialogue box appear. Needs manual listening. |
+| sfx_text_type_soft | `raw/sfx/sfx_text_type_soft_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from RPG Sound Pack wood-small.wav (CC0 artisticdude). Trimmed to 0.05s for typewriter tick, peak normalized. Needs manual listening. |
 | sfx_text_complete_soft | `raw/sfx/sfx_text_complete_soft_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | CC0 no-login positive cue. Needs manual listening for text completion. |
 | sfx_footstep_grass_soft | `raw/sfx/sfx_footstep_grass_soft_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | CC0 no-login leaves step candidate for grass. Needs manual listening; reject if too crunchy. |
 | sfx_footstep_sand_soft | `raw/sfx/sfx_footstep_sand_soft_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from Peludo sand footsteps CC0 source; replaces incorrect mud texture. Needs manual listening. |
-| sfx_joystick_drag_soft | `raw/sfx/sfx_joystick_drag_soft_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from RPG Sound Pack cloth-heavy.wav (CC0 artisticdude). Lowpass 4.2kHz, very subtle. Needs manual listening. |
-| sfx_interact_available_glow | `raw/sfx/sfx_interact_available_glow_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from RPG Sound Pack magic1.wav (CC0 artisticdude). Lowpass, soft gentle glow. Needs manual listening; reject if too fantasy. |
-| sfx_interact_tap | `raw/sfx/sfx_interact_tap_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from Lokif GUI click_2.wav (CC0). Trimmed to 0.22s, soft tap. Needs manual listening. |
-| sfx_choice_panel_appear | `raw/sfx/sfx_choice_panel_appear_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from RPG Sound Pack cloth.wav (CC0 artisticdude). Resampled 48->44.1kHz, soft card panel. Needs manual listening. |
-| sfx_choice_button_tap | `raw/sfx/sfx_choice_button_tap_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from RPG Sound Pack interface1.wav (CC0 artisticdude). 44.1kHz PCM16, clean soft tap. Needs manual listening. |
+| sfx_joystick_drag_soft | `raw/sfx/sfx_joystick_drag_soft_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from RPG Sound Pack cloth-heavy.wav (CC0 artisticdude). Peak normalized, subtle drag feedback. Needs manual listening. |
+| sfx_interact_available_glow | `raw/sfx/sfx_interact_available_glow_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from RPG Sound Pack coin3.wav (CC0 artisticdude). Soft sparkle for glow notification. Needs manual listening. |
+| sfx_interact_tap | `raw/sfx/sfx_interact_tap_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from Lokif GUI click_2.wav (CC0). Trimmed to 0.22s, peak normalized. Needs manual listening. |
+| sfx_choice_panel_appear | `raw/sfx/sfx_choice_panel_appear_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from StarNinjas BookFlip2.wav (CC0). Soft card/paper panel appear. Needs manual listening. |
+| sfx_choice_button_tap | `raw/sfx/sfx_choice_button_tap_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | Rebuilt from RPG Sound Pack wood-small.wav (CC0 artisticdude). Soft natural wood tap. Needs manual listening. |
 | sfx_choice_positive_chime | `raw/sfx/sfx_choice_positive_chime_1.wav` (ada) | OpenGameArt.org | CC0 | needs_review | CC0 no-login positive cue. Needs manual listening; reject if arcade. |
 | sfx_choice_neutral_soft | `raw/sfx/sfx_choice_neutral_soft_1.wav` (ada) | Local/generated | Project-owned | needs_review | Rebuilt as soft neutral tone; avoids UI/interface feel. Needs manual listening. |
 | sfx_choice_negative_soft | `raw/sfx/sfx_choice_negative_soft_1.wav` (ada) | Local/generated | Project-owned | needs_review | Rebuilt as soft low feedback cue; avoids wrong-answer buzzer. Needs manual listening. |

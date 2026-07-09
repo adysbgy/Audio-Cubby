@@ -146,18 +146,18 @@
       "priority": "high",
       "candidate_files": [
         {
-          "candidate_name": "RPG Sound Pack / interface1.wav",
-          "source_site": "OpenGameArt.org",
-          "source_url": "https://opengameart.org/content/rpg-sound-pack",
-          "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
-          "creator": "artisticdude",
-          "license": "CC0",
-          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "requires_attribution": "false",
-          "commercial_use_allowed": "true",
-          "status": "needs_review",
-"local_file": "raw/sfx/sfx_ui_next_soft_1.wav",
-           "notes": "Rebuilt from extracted RPG Sound Pack interface1.wav (CC0 artisticdude). Trimmed, 44.1kHz PCM16, soft UI next cue. Needs manual listening."
+      "candidate_name": "RPG Sound Pack / interface1.wav",
+      "source_site": "OpenGameArt.org",
+      "source_url": "https://opengameart.org/content/rpg-sound-pack",
+      "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
+      "creator": "artisticdude",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "requires_attribution": "false",
+      "commercial_use_allowed": "true",
+      "status": "needs_review",
+      "local_file": "raw/sfx/sfx_ui_next_soft_1.wav",
+      "notes": "Rebuilt from extracted RPG Sound Pack interface1.wav (CC0 artisticdude). Reduced gain (0.80), 44.1kHz PCM16, soft UI next cue. Needs manual listening."
         }
       ]
     },
@@ -170,18 +170,18 @@
       "priority": "high",
       "candidate_files": [
         {
-          "candidate_name": "RPG Sound Pack / interface2.wav",
-          "source_site": "OpenGameArt.org",
-          "source_url": "https://opengameart.org/content/rpg-sound-pack",
-          "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
-          "creator": "artisticdude",
-          "license": "CC0",
-          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "requires_attribution": "false",
-          "commercial_use_allowed": "true",
-          "status": "needs_review",
-"local_file": "raw/sfx/sfx_ui_back_soft_1.wav",
-           "notes": "Rebuilt from extracted RPG Sound Pack interface2.wav (CC0 artisticdude). Trimmed, 44.1kHz PCM16, soft UI back cue. Needs manual listening."
+      "candidate_name": "RPG Sound Pack / interface2.wav",
+      "source_site": "OpenGameArt.org",
+      "source_url": "https://opengameart.org/content/rpg-sound-pack",
+      "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
+      "creator": "artisticdude",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "requires_attribution": "false",
+      "commercial_use_allowed": "true",
+      "status": "needs_review",
+      "local_file": "raw/sfx/sfx_ui_back_soft_1.wav",
+      "notes": "Rebuilt from extracted RPG Sound Pack interface2.wav (CC0 artisticdude). Reduced gain (0.80), 44.1kHz PCM16, soft UI back cue. Needs manual listening."
         }
       ]
     },
@@ -218,18 +218,18 @@
       "priority": "high",
       "candidate_files": [
         {
-          "candidate_name": "RPG Sound Pack / cloth.wav",
-          "source_site": "OpenGameArt.org",
-          "source_url": "https://opengameart.org/content/rpg-sound-pack",
-          "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
-          "creator": "artisticdude",
-          "license": "CC0",
-          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "requires_attribution": "false",
-          "commercial_use_allowed": "true",
-          "status": "needs_review",
-"local_file": "raw/sfx/sfx_dialogue_box_appear_1.wav",
-           "notes": "Rebuilt from extracted RPG Sound Pack cloth.wav (CC0 artisticdude). Resampled to 44.1kHz PCM16, lowpass/soft peak for dialogue box appear. Needs manual listening."
+      "candidate_name": "Book Flip Sounds / BookFlip4.wav",
+      "source_site": "OpenGameArt.org",
+      "source_url": "https://opengameart.org/content/10-book-page-flips",
+      "download_url": "https://opengameart.org/sites/default/files/book_flips_-_starninjas.zip",
+      "creator": "StarNinjas",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "requires_attribution": "false",
+      "commercial_use_allowed": "true",
+      "status": "needs_review",
+      "local_file": "raw/sfx/sfx_dialogue_box_appear_1.wav",
+      "notes": "Rebuilt from StarNinjas BookFlip4.wav (CC0). Resampled to 44.1kHz PCM16, card/paper pop for dialogue box appear. Needs manual listening."
         }
       ]
     },
@@ -242,18 +242,18 @@
       "priority": "high",
       "candidate_files": [
         {
-          "candidate_name": "GUI Sound Effects / click.wav",
-          "source_site": "OpenGameArt.org",
-          "source_url": "https://opengameart.org/content/gui-sound-effects",
-          "download_url": "https://opengameart.org/sites/default/files/GUI_Sound_Effects_by_Lokif.7z",
-          "creator": "Lokif",
-          "license": "CC0",
-          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "requires_attribution": "false",
-          "commercial_use_allowed": "true",
-          "status": "needs_review",
-"local_file": "raw/sfx/sfx_text_type_soft_1.wav",
-           "notes": "Rebuilt from extracted Lokif GUI click.wav (CC0). Trimmed to 0.06s for typewriter effect, very soft peak (8%). 44.1kHz PCM16. Needs manual listening for repeated typing."
+      "candidate_name": "RPG Sound Pack / wood-small.wav",
+      "source_site": "OpenGameArt.org",
+      "source_url": "https://opengameart.org/content/rpg-sound-pack",
+      "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
+      "creator": "artisticdude",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "requires_attribution": "false",
+      "commercial_use_allowed": "true",
+      "status": "needs_review",
+      "local_file": "raw/sfx/sfx_text_type_soft_1.wav",
+      "notes": "Rebuilt from extracted RPG Sound Pack wood-small.wav (CC0 artisticdude). Trimmed to 0.05s for typewriter tick, peak normalized. Needs manual listening for repeated typing."
         }
       ]
     },
@@ -338,18 +338,18 @@
       "priority": "low",
       "candidate_files": [
         {
-          "candidate_name": "RPG Sound Pack / cloth-heavy.wav",
-          "source_site": "OpenGameArt.org",
-          "source_url": "https://opengameart.org/content/rpg-sound-pack",
-          "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
-          "creator": "artisticdude",
-          "license": "CC0",
-          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "requires_attribution": "false",
-          "commercial_use_allowed": "true",
-          "status": "needs_review",
-"local_file": "raw/sfx/sfx_joystick_drag_soft_1.wav",
-           "notes": "Rebuilt from extracted RPG Sound Pack cloth-heavy.wav (CC0 artisticdude). Trimmed, lowpass to 4.2kHz, 44.1kHz PCM16, very subtle drag feedback. Needs manual listening for subtle drag."
+      "candidate_name": "RPG Sound Pack / cloth-heavy.wav",
+      "source_site": "OpenGameArt.org",
+      "source_url": "https://opengameart.org/content/rpg-sound-pack",
+      "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
+      "creator": "artisticdude",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "requires_attribution": "false",
+      "commercial_use_allowed": "true",
+      "status": "needs_review",
+      "local_file": "raw/sfx/sfx_joystick_drag_soft_1.wav",
+      "notes": "Rebuilt from extracted RPG Sound Pack cloth-heavy.wav (CC0 artisticdude). Peak normalized, 44.1kHz PCM16, subtle drag feedback. Needs manual listening for subtle drag."
         }
       ]
     },
@@ -362,18 +362,18 @@
       "priority": "medium",
       "candidate_files": [
         {
-          "candidate_name": "RPG Sound Pack / magic1.wav",
-          "source_site": "OpenGameArt.org",
-          "source_url": "https://opengameart.org/content/rpg-sound-pack",
-          "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
-          "creator": "artisticdude",
-          "license": "CC0",
-          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "requires_attribution": "false",
-          "commercial_use_allowed": "true",
-          "status": "needs_review",
-"local_file": "raw/sfx/sfx_interact_available_glow_1.wav",
-           "notes": "Rebuilt from extracted RPG Sound Pack magic1.wav (CC0 artisticdude). Trimmed, lowpass, 44.1kHz PCM16, soft gentle glow cue. Needs manual listening; reject if too fantasy/intense."
+      "candidate_name": "RPG Sound Pack / coin3.wav",
+      "source_site": "OpenGameArt.org",
+      "source_url": "https://opengameart.org/content/rpg-sound-pack",
+      "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
+      "creator": "artisticdude",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "requires_attribution": "false",
+      "commercial_use_allowed": "true",
+      "status": "needs_review",
+      "local_file": "raw/sfx/sfx_interact_available_glow_1.wav",
+      "notes": "Rebuilt from extracted RPG Sound Pack coin3.wav (CC0 artisticdude). Peak normalized, 44.1kHz PCM16, soft sparkle for glow notification. Needs manual listening; reject if too metallic."
         }
       ]
     },
@@ -386,18 +386,18 @@
       "priority": "high",
       "candidate_files": [
         {
-          "candidate_name": "GUI Sound Effects / click_2.wav",
-          "source_site": "OpenGameArt.org",
-          "source_url": "https://opengameart.org/content/gui-sound-effects",
-          "download_url": "https://opengameart.org/sites/default/files/GUI_Sound_Effects_by_Lokif.7z",
-          "creator": "Lokif",
-          "license": "CC0",
-          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "requires_attribution": "false",
-          "commercial_use_allowed": "true",
-          "status": "needs_review",
-"local_file": "raw/sfx/sfx_interact_tap_1.wav",
-           "notes": "Rebuilt from extracted Lokif GUI click_2.wav (CC0). Trimmed to 0.22s for soft tap, 44.1kHz PCM16. Needs manual listening for soft interact tap."
+      "candidate_name": "GUI Sound Effects / click_2.wav",
+      "source_site": "OpenGameArt.org",
+      "source_url": "https://opengameart.org/content/gui-sound-effects",
+      "download_url": "https://opengameart.org/sites/default/files/GUI_Sound_Effects_by_Lokif.7z",
+      "creator": "Lokif",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "requires_attribution": "false",
+      "commercial_use_allowed": "true",
+      "status": "needs_review",
+      "local_file": "raw/sfx/sfx_interact_tap_1.wav",
+      "notes": "Rebuilt from extracted Lokif GUI click_2.wav (CC0). Trimmed to 0.22s, peak normalized for soft tap. Needs manual listening for soft interact tap."
         }
       ]
     },
@@ -410,18 +410,18 @@
       "priority": "high",
       "candidate_files": [
         {
-          "candidate_name": "RPG Sound Pack / cloth.wav",
-          "source_site": "OpenGameArt.org",
-          "source_url": "https://opengameart.org/content/rpg-sound-pack",
-          "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
-          "creator": "artisticdude",
-          "license": "CC0",
-          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "requires_attribution": "false",
-          "commercial_use_allowed": "true",
-          "status": "needs_review",
-"local_file": "raw/sfx/sfx_choice_panel_appear_1.wav",
-           "notes": "Rebuilt from extracted RPG Sound Pack cloth.wav (CC0 artisticdude). Trimmed, lowpass, 44.1kHz PCM16 for soft card panel appear. Needs manual listening."
+      "candidate_name": "Book Flip Sounds / BookFlip2.wav",
+      "source_site": "OpenGameArt.org",
+      "source_url": "https://opengameart.org/content/10-book-page-flips",
+      "download_url": "https://opengameart.org/sites/default/files/book_flips_-_starninjas.zip",
+      "creator": "StarNinjas",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "requires_attribution": "false",
+      "commercial_use_allowed": "true",
+      "status": "needs_review",
+      "local_file": "raw/sfx/sfx_choice_panel_appear_1.wav",
+      "notes": "Rebuilt from StarNinjas BookFlip2.wav (CC0). Resampled to 44.1kHz PCM16, soft card/paper panel appear. Needs manual listening."
         }
       ]
     },
@@ -434,18 +434,18 @@
       "priority": "high",
       "candidate_files": [
         {
-          "candidate_name": "RPG Sound Pack / interface1.wav",
-          "source_site": "OpenGameArt.org",
-          "source_url": "https://opengameart.org/content/rpg-sound-pack",
-          "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
-          "creator": "artisticdude",
-          "license": "CC0",
-          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "requires_attribution": "false",
-          "commercial_use_allowed": "true",
-          "status": "needs_review",
-"local_file": "raw/sfx/sfx_choice_button_tap_1.wav",
-           "notes": "Rebuilt from extracted RPG Sound Pack interface1.wav (CC0 artisticdude). Trimmed, 44.1kHz PCM16, clean soft choice button tap. Needs manual listening."
+      "candidate_name": "RPG Sound Pack / wood-small.wav",
+      "source_site": "OpenGameArt.org",
+      "source_url": "https://opengameart.org/content/rpg-sound-pack",
+      "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
+      "creator": "artisticdude",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "requires_attribution": "false",
+      "commercial_use_allowed": "true",
+      "status": "needs_review",
+      "local_file": "raw/sfx/sfx_choice_button_tap_1.wav",
+      "notes": "Rebuilt from extracted RPG Sound Pack wood-small.wav (CC0 artisticdude). Peak normalized, 44.1kHz PCM16, soft natural wood tap. Needs manual listening."
         }
       ]
     },
