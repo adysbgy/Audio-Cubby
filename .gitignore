@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Legacy/quarantined audio and old exploratory docs
+raw/_legacy_needs_review/
+raw/local_candidates/
+raw/rejected_mismatch/
+archive/old_docs/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Audio editor caches / exports
+*.aup3-wal
+*.aup3-shm
+*.reapeaks
+
+# Keep final active audio and docs tracked
+!raw/bgm/
+!raw/ambience/
+!raw/sfx/

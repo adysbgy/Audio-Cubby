@@ -1,0 +1,837 @@
+{
+  "project": "Cubby",
+  "workspace": "CUBBY-VSCODE",
+  "purpose": "Copyright-safe audio research for Cubby game",
+  "license_policy": {
+    "preferred": [
+      "CC0",
+      "Public Domain",
+      "Public Domain Mark"
+    ],
+    "avoid": [
+      "NonCommercial",
+      "NoDerivatives",
+      "unclear license",
+      "copyrighted franchise sounds",
+      "YouTube-ripped audio"
+    ]
+  },
+  "audio_assets": [
+    {
+      "asset_name": "bgm_gameplay_playground_loop",
+      "type": "bgm",
+      "game_state": "Open Map / Playground Gameplay",
+      "trigger": "gameplay begins",
+      "mood": "warm, gentle, playful, outdoor",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "Children's Game Music 1 - Picnic",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/childrens-game-music-1-picnic",
+          "download_url": "https://opengameart.org/sites/default/files/children_soundtrack_1.wav",
+          "creator": "heartade",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/bgm/bgm_gameplay_playground_loop_1.wav",
+          "notes": "Re-audit reset: not accepted because current audio has not been proven suitable for Cubby child-safe soft/warm criteria by manual listening. Source page verified for CC0/Public Domain. Review audio fit before integration."
+        }
+      ]
+    },
+    {
+      "asset_name": "bgm_storybook_reflection_loop",
+      "type": "bgm",
+      "game_state": "Storybook Recap",
+      "trigger": "storybook opens",
+      "mood": "calm, reflective, soft, reading/storybook feeling",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "Emotional piano loop",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/emotional-piano-loop",
+          "download_url": "https://opengameart.org/sites/default/files/Piano%20Loop.wav",
+          "creator": "extenz",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/bgm/bgm_storybook_reflection_loop_1.wav",
+          "notes": "Source CC0 valid, tapi tag/mood sad/emotional perlu dicek agar tidak terasa scary untuk anak."
+        }
+      ]
+    },
+    {
+      "asset_name": "bgm_tutorial_soft_guidance_loop",
+      "type": "bgm",
+      "game_state": "Tutorial",
+      "trigger": "tutorial screens",
+      "mood": "friendly, simple, not distracting",
+      "priority": "medium",
+      "candidate_files": [
+        {
+          "candidate_name": "Children's Game Music 2 - Adventure",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/childrens-game-music-2-adventure",
+          "download_url": "https://opengameart.org/sites/default/files/children_soundtrack_2.wav",
+          "creator": "heartade",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/bgm/bgm_tutorial_soft_guidance_loop_1.wav",
+          "notes": "Perlu review agar tidak terlalu adventurous untuk tutorial."
+        }
+      ]
+    },
+    {
+      "asset_name": "amb_playground_day_loop",
+      "type": "ambience",
+      "game_state": "Open Map",
+      "trigger": "gameplay begins",
+      "mood": "calm park ambience",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "Sunny Day",
+          "source_site": "SoundBible.com",
+          "source_url": "https://soundbible.com/1661-Sunny-Day.html",
+          "download_url": "http://soundbible.com/grab.php?id=1661&type=wav",
+          "creator": "stephan",
+          "license": "Public Domain",
+          "license_url": "https://soundbible.com/1661-Sunny-Day.html",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/ambience/amb_playground_day_loop_1.wav",
+          "notes": "Re-audit reset: not accepted because current audio has not been proven suitable for Cubby child-safe soft/warm criteria by manual listening. Source page verified for CC0/Public Domain. Review audio fit before integration."
+        }
+      ]
+    },
+    {
+      "asset_name": "amb_sandbox_soft_loop",
+      "type": "ambience",
+      "game_state": "Sandbox / building area",
+      "trigger": "near sandbox area",
+      "mood": "soft sand texture",
+      "priority": "low",
+      "candidate_files": [
+        {
+          "candidate_name": "Water Splash and sand footsteps / sand_footsteps.mp3",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/water-splash-and-sand-footsteps",
+          "download_url": "https://opengameart.org/sites/default/files/sand_footsteps_0.mp3",
+          "creator": "Peludo",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/ambience/amb_sandbox_soft_loop_1.wav",
+          "notes": "Rebuilt from Peludo CC0 sand footsteps source as soft sandbox texture; replaces TinyWorlds mud02 mapping. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_ui_next_soft",
+      "type": "sfx",
+      "game_state": "Dialogue / Tutorial / Storybook",
+      "trigger": "next arrow tapped",
+      "mood": "soft, short, clean",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "RPG Sound Pack / interface1.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/rpg-sound-pack",
+          "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
+          "creator": "artisticdude",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_ui_next_soft_1.wav",
+          "notes": "CC0 no-login interface cue. Needs manual listening for soft next action."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_ui_back_soft",
+      "type": "sfx",
+      "game_state": "Any screen",
+      "trigger": "back button tapped",
+      "mood": "soft tap or subtle whoosh",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "RPG Sound Pack / interface2.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/rpg-sound-pack",
+          "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
+          "creator": "artisticdude",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_ui_back_soft_1.wav",
+          "notes": "CC0 no-login interface cue. Needs manual listening for soft back action."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_ui_disabled_soft",
+      "type": "sfx",
+      "game_state": "Any UI",
+      "trigger": "disabled button tapped",
+      "mood": "muted soft tap",
+      "priority": "medium",
+      "candidate_files": [
+        {
+          "candidate_name": "GUI Sound Effects / negative_2.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/gui-sound-effects",
+          "download_url": "https://opengameart.org/sites/default/files/GUI_Sound_Effects_by_Lokif.7z",
+          "creator": "Lokif",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_ui_disabled_soft_1.wav",
+          "notes": "CC0 no-login negative cue. Needs manual listening; reject if too error-like."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_dialogue_box_appear",
+      "type": "sfx",
+      "game_state": "Character Dialogue",
+      "trigger": "dialogue box appears",
+      "mood": "soft card/paper pop",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "RPG Sound Pack / cloth.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/rpg-sound-pack",
+          "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
+          "creator": "artisticdude",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_dialogue_box_appear_1.wav",
+          "notes": "CC0 no-login cloth/paper-like cue. Needs manual listening for dialogue box appear."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_text_type_soft",
+      "type": "sfx",
+      "game_state": "Character Dialogue",
+      "trigger": "typewriter text reveal",
+      "mood": "soft blip/tick, very gentle",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "GUI Sound Effects / click.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/gui-sound-effects",
+          "download_url": "https://opengameart.org/sites/default/files/GUI_Sound_Effects_by_Lokif.7z",
+          "creator": "Lokif",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_text_type_soft_1.wav",
+          "notes": "CC0 no-login click cue. Needs manual listening; reject if too loud/long for repeated typing."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_text_complete_soft",
+      "type": "sfx",
+      "game_state": "Character Dialogue",
+      "trigger": "text reveal completes",
+      "mood": "tiny soft chime",
+      "priority": "low",
+      "candidate_files": [
+        {
+          "candidate_name": "GUI Sound Effects / positive.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/gui-sound-effects",
+          "download_url": "https://opengameart.org/sites/default/files/GUI_Sound_Effects_by_Lokif.7z",
+          "creator": "Lokif",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_text_complete_soft_1.wav",
+          "notes": "CC0 no-login positive cue. Needs manual listening for text completion."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_footstep_grass_soft",
+      "type": "sfx",
+      "game_state": "Open Map",
+      "trigger": "player walks on grass",
+      "mood": "small, soft, childlike step",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "Different Steps / leaves01.ogg",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/different-steps-on-wood-stone-leaves-gravel-and-mud",
+          "download_url": "https://opengameart.org/sites/default/files/%5Bkdd%5DDifferentSteps_0.zip",
+          "creator": "TinyWorlds",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_footstep_grass_soft_1.wav",
+          "notes": "CC0 no-login leaves step candidate for grass. Needs manual listening; reject if too crunchy."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_footstep_sand_soft",
+      "type": "sfx",
+      "game_state": "Open Map / Sandbox",
+      "trigger": "player walks on sand",
+      "mood": "soft sandy step",
+      "priority": "medium",
+      "candidate_files": [
+        {
+          "candidate_name": "Water Splash and sand footsteps / sand_footsteps.mp3",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/water-splash-and-sand-footsteps",
+          "download_url": "https://opengameart.org/sites/default/files/sand_footsteps_0.mp3",
+          "creator": "Peludo",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_footstep_sand_soft_1.wav",
+          "notes": "Rebuilt from Peludo CC0 sand footsteps source; replaces mud texture. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_joystick_drag_soft",
+      "type": "sfx",
+      "game_state": "Open Map",
+      "trigger": "joystick dragged",
+      "mood": "very subtle UI feedback",
+      "priority": "low",
+      "candidate_files": [
+        {
+          "candidate_name": "RPG Sound Pack / cloth-heavy.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/rpg-sound-pack",
+          "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
+          "creator": "artisticdude",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_joystick_drag_soft_1.wav",
+          "notes": "CC0 no-login cloth movement candidate. Needs manual listening for subtle drag."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_interact_available_glow",
+      "type": "sfx",
+      "game_state": "Open Map",
+      "trigger": "interact button becomes available",
+      "mood": "soft glow/chime",
+      "priority": "medium",
+      "candidate_files": [
+        {
+          "candidate_name": "RPG Sound Pack / magic1.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/rpg-sound-pack",
+          "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
+          "creator": "artisticdude",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_interact_available_glow_1.wav",
+          "notes": "CC0 no-login magic/glow cue. Needs manual listening; reject if too fantasy/intense."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_interact_tap",
+      "type": "sfx",
+      "game_state": "Open Map",
+      "trigger": "interact button tapped",
+      "mood": "soft tap + tiny chime",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "GUI Sound Effects / click_2.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/gui-sound-effects",
+          "download_url": "https://opengameart.org/sites/default/files/GUI_Sound_Effects_by_Lokif.7z",
+          "creator": "Lokif",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_interact_tap_1.wav",
+          "notes": "CC0 no-login click cue. Needs manual listening for soft interact tap."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_choice_panel_appear",
+      "type": "sfx",
+      "game_state": "Decision",
+      "trigger": "choice buttons appear",
+      "mood": "soft card slide or paper pop",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "RPG Sound Pack / cloth.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/rpg-sound-pack",
+          "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
+          "creator": "artisticdude",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_choice_panel_appear_1.wav",
+          "notes": "CC0 no-login cloth/card cue. Needs manual listening for choice panel appear."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_choice_button_tap",
+      "type": "sfx",
+      "game_state": "Decision",
+      "trigger": "player taps a choice",
+      "mood": "clean soft tap",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "RPG Sound Pack / interface1.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/rpg-sound-pack",
+          "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
+          "creator": "artisticdude",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_choice_button_tap_1.wav",
+          "notes": "CC0 no-login interface tap. Needs manual listening for choice button."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_choice_positive_chime",
+      "type": "sfx",
+      "game_state": "Decision Feedback",
+      "trigger": "best/repair choice selected",
+      "mood": "warm small chime",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "GUI Sound Effects / positive.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/gui-sound-effects",
+          "download_url": "https://opengameart.org/sites/default/files/GUI_Sound_Effects_by_Lokif.7z",
+          "creator": "Lokif",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_choice_positive_chime_1.wav",
+          "notes": "CC0 no-login positive cue. Needs manual listening; reject if arcade."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_choice_neutral_soft",
+      "type": "sfx",
+      "game_state": "Decision Feedback",
+      "trigger": "poor/needs_repair choice selected",
+      "mood": "muted soft tone, not punishing",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "Local procedural soft musical cue",
+          "source_site": "Local/generated",
+          "source_url": "",
+          "download_url": "",
+          "creator": "Project",
+          "license": "Project-owned",
+          "license_url": "",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_choice_neutral_soft_1.wav",
+          "notes": "Rebuilt as soft non-UI procedural musical cue to avoid wrong-context UI/error/buzzer sounds. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_choice_negative_soft",
+      "type": "sfx",
+      "game_state": "Decision Feedback",
+      "trigger": "worst choice selected",
+      "mood": "low soft tone, not scary, not wrong-answer",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "Local procedural soft musical cue",
+          "source_site": "Local/generated",
+          "source_url": "",
+          "download_url": "",
+          "creator": "Project",
+          "license": "Project-owned",
+          "license_url": "",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_choice_negative_soft_1.wav",
+          "notes": "Rebuilt as soft non-UI procedural musical cue to avoid wrong-context UI/error/buzzer sounds. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_emotion_happy_soft",
+      "type": "sfx",
+      "game_state": "Emotion Feedback",
+      "trigger": "Mia feels happy",
+      "mood": "soft sparkle/chime",
+      "priority": "medium",
+      "candidate_files": [
+        {
+          "candidate_name": "Local procedural soft musical cue",
+          "source_site": "Local/generated",
+          "source_url": "",
+          "download_url": "",
+          "creator": "Project",
+          "license": "Project-owned",
+          "license_url": "",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_emotion_happy_soft_1.wav",
+          "notes": "Rebuilt as soft non-UI procedural musical cue to avoid wrong-context UI/error/buzzer sounds. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_emotion_relieved_breath",
+      "type": "sfx",
+      "game_state": "Emotion Feedback",
+      "trigger": "Mia feels relieved",
+      "mood": "soft exhale + gentle chime if possible",
+      "priority": "medium",
+      "candidate_files": [
+        {
+          "candidate_name": "Local procedural soft musical cue",
+          "source_site": "Local/generated",
+          "source_url": "",
+          "download_url": "",
+          "creator": "Project",
+          "license": "Project-owned",
+          "license_url": "",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_emotion_relieved_breath_1.wav",
+          "notes": "Rebuilt as soft non-UI procedural musical cue to avoid wrong-context UI/error/buzzer sounds. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_emotion_uncomfortable_soft",
+      "type": "sfx",
+      "game_state": "Emotion Feedback",
+      "trigger": "Mia feels uncomfortable",
+      "mood": "subtle low soft note",
+      "priority": "medium",
+      "candidate_files": [
+        {
+          "candidate_name": "Local procedural soft musical cue",
+          "source_site": "Local/generated",
+          "source_url": "",
+          "download_url": "",
+          "creator": "Project",
+          "license": "Project-owned",
+          "license_url": "",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_emotion_uncomfortable_soft_1.wav",
+          "notes": "Rebuilt as soft non-UI procedural musical cue to avoid wrong-context UI/error/buzzer sounds. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_emotion_annoyed_soft",
+      "type": "sfx",
+      "game_state": "Emotion Feedback",
+      "trigger": "Mia feels annoyed",
+      "mood": "small muted bump, not cartoon anger",
+      "priority": "medium",
+      "candidate_files": [
+        {
+          "candidate_name": "Local procedural soft musical cue",
+          "source_site": "Local/generated",
+          "source_url": "",
+          "download_url": "",
+          "creator": "Project",
+          "license": "Project-owned",
+          "license_url": "",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_emotion_annoyed_soft_1.wav",
+          "notes": "Rebuilt as soft non-UI procedural musical cue to avoid wrong-context UI/error/buzzer sounds. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_emotion_cry_soft",
+      "type": "sfx",
+      "game_state": "Emotion Feedback",
+      "trigger": "Mia cries",
+      "mood": "very gentle sad cue, very short",
+      "priority": "medium",
+      "candidate_files": [
+        {
+          "candidate_name": "Local procedural soft musical cue",
+          "source_site": "Local/generated",
+          "source_url": "",
+          "download_url": "",
+          "creator": "Project",
+          "license": "Project-owned",
+          "license_url": "",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_emotion_cry_soft_1.wav",
+          "notes": "Rebuilt as soft non-UI procedural musical cue to avoid wrong-context UI/error/buzzer sounds. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_emotion_upset_soft",
+      "type": "sfx",
+      "game_state": "Emotion Feedback",
+      "trigger": "Mia feels upset/angry",
+      "mood": "low soft hit or tension cue, child-safe",
+      "priority": "medium",
+      "candidate_files": [
+        {
+          "candidate_name": "Local procedural soft musical cue",
+          "source_site": "Local/generated",
+          "source_url": "",
+          "download_url": "",
+          "creator": "Project",
+          "license": "Project-owned",
+          "license_url": "",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_emotion_upset_soft_1.wav",
+          "notes": "Rebuilt as soft non-UI procedural musical cue to avoid wrong-context UI/error/buzzer sounds. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_storybook_open",
+      "type": "sfx",
+      "game_state": "Storybook",
+      "trigger": "storybook opens",
+      "mood": "soft book opening / paper movement",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "Book Flip Sounds / BookFlip3.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/book-flip-sounds",
+          "download_url": "https://opengameart.org/sites/default/files/BookFlip_SFX.zip",
+          "creator": "Voltiment555",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_storybook_open_1.wav",
+          "notes": "Rebuilt from real CC0 book flip/open recording; replaces cloth cue. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_storybook_page_appear",
+      "type": "sfx",
+      "game_state": "Storybook",
+      "trigger": "storybook page appears",
+      "mood": "soft paper slide",
+      "priority": "medium",
+      "candidate_files": [
+        {
+          "candidate_name": "10 Book Page Flips / book_flip.4.ogg",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/10-book-page-flips",
+          "download_url": "https://opengameart.org/sites/default/files/book_flips_-_starninjas.zip",
+          "creator": "StarNinjas",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_storybook_page_appear_1.wav",
+          "notes": "Rebuilt from real CC0 book/page flip recording; replaces cloth cue. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_storybook_page_next",
+      "type": "sfx",
+      "game_state": "Storybook",
+      "trigger": "next storybook page tapped",
+      "mood": "gentle page flip",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "10 Book Page Flips / book_flip.8.ogg",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/10-book-page-flips",
+          "download_url": "https://opengameart.org/sites/default/files/book_flips_-_starninjas.zip",
+          "creator": "StarNinjas",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_storybook_page_next_1.wav",
+          "notes": "Rebuilt from real CC0 book/page flip recording; replaces cloth cue. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_storybook_page_previous",
+      "type": "sfx",
+      "game_state": "Storybook",
+      "trigger": "previous storybook page tapped",
+      "mood": "gentle reverse page flip",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "10 Book Page Flips / book_flip.6.ogg",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/10-book-page-flips",
+          "download_url": "https://opengameart.org/sites/default/files/book_flips_-_starninjas.zip",
+          "creator": "StarNinjas",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_storybook_page_previous_1.wav",
+          "notes": "Rebuilt from real CC0 book/page flip recording; replaces cloth-heavy cue. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_storybook_close",
+      "type": "sfx",
+      "game_state": "Storybook",
+      "trigger": "storybook closes / finish tapped",
+      "mood": "soft book close",
+      "priority": "high",
+      "candidate_files": [
+        {
+          "candidate_name": "Book Flip Sounds / BookFlip13.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/book-flip-sounds",
+          "download_url": "https://opengameart.org/sites/default/files/BookFlip_SFX.zip",
+          "creator": "Voltiment555",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_storybook_close_1.wav",
+          "notes": "Rebuilt from real CC0 book flip/close recording; replaces door cue. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_lets_talk_card_appear",
+      "type": "sfx",
+      "game_state": "Storybook",
+      "trigger": "Let's Talk card appears",
+      "mood": "soft paper/card pop",
+      "priority": "medium",
+      "candidate_files": [
+        {
+          "candidate_name": "10 Book Page Flips / book_flip.1.ogg",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/10-book-page-flips",
+          "download_url": "https://opengameart.org/sites/default/files/book_flips_-_starninjas.zip",
+          "creator": "StarNinjas",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_lets_talk_card_appear_1.wav",
+          "notes": "Rebuilt from real CC0 page/paper flip as soft card appear. Needs manual listening."
+        }
+      ]
+    },
+    {
+      "asset_name": "sfx_question_hint_tap",
+      "type": "sfx",
+      "game_state": "Storybook",
+      "trigger": "question mark / hint button tapped",
+      "mood": "small curious chime",
+      "priority": "low",
+      "candidate_files": [
+        {
+          "candidate_name": "GUI Sound Effects / misc_menu.wav",
+          "source_site": "OpenGameArt.org",
+          "source_url": "https://opengameart.org/content/gui-sound-effects",
+          "download_url": "https://opengameart.org/sites/default/files/GUI_Sound_Effects_by_Lokif.7z",
+          "creator": "Lokif",
+          "license": "CC0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "requires_attribution": "false",
+          "commercial_use_allowed": "true",
+          "status": "needs_review",
+          "local_file": "raw/sfx/sfx_question_hint_tap_1.wav",
+          "notes": "CC0 no-login menu cue. Needs manual listening; reject if too UI/arcade."
+        }
+      ]
+    }
+  ]
+}
