@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cubby Audio Player</title>
+<style>
+  :root {
+    --bg: #f5f5f5;
+    --surface: #ffffff;
+    --text: #333;
+    --muted: #666;
+    --accent: #1a6cff;
+    --line: #e0e0e0;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+  }
+  h1, h2 { margin: 24px 0 12px; color: var(--text); }
+  h1 { font-size: 24px; }
+  h2 { font-size: 18px; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 8px; }
+  .group { margin-bottom: 32px; }
+  .file-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .file-name {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--text);
+    flex: 1;
+    min-width: 200px;
+  }
+  audio {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+  }
+  .note {
+    font-size: 12px;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .status-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    background: #e0e0e0;
+    color: var(--muted);
+  }
+  .status-badge.needs_review { background: #fff3cd; color: #856404; }
+  .status-badge.accepted { background: #d4edda; color: #155724; }
+  .status-badge.rejected { background: #f8d7da; color: #721c24; }
+  .status-badge.needs_replace { background: #cce5ff; color: #004085; }
+  .status-badge.project_owned { background: #e2e3e5; color: #383d41; }
+</style>
+</head>
+<body>
+<h1>Cubby Audio Player</h1>
+<p>Play and review all audio files. All files are 44.1kHz, 16-bit PCM WAV.</p>
+
+<div class="group">
+<h2>Background Music (3)</h2>
+<div class="file-card">
+  <span class="file-name">bgm_gameplay_playground_loop</span>
+  <audio controls src="raw/bgm/bgm_gameplay_playground_loop_1.wav"></audio>
+  <span class="note">Children's Game Music 1 - Picnic (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">bgm_storybook_reflection_loop</span>
+  <audio controls src="raw/bgm/bgm_storybook_reflection_loop_1.wav"></audio>
+  <span class="note">Emotional Piano Loop (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">bgm_tutorial_soft_guidance_loop</span>
+  <audio controls src="raw/bgm/bgm_tutorial_soft_guidance_loop_1.wav"></audio>
+  <span class="note">Children's Game Music 2 - Adventure (CC0)</span>
+</div>
+</div>
+
+<div class="group">
+<h2>Ambience (2)</h2>
+<div class="file-card">
+  <span class="file-name">amb_playground_day_loop</span>
+  <audio controls src="raw/ambience/amb_playground_day_loop_1.wav"></audio>
+  <span class="note">Sunny Day - Public Domain</span>
+</div>
+<div class="file-card">
+  <span class="file-name">amb_sandbox_soft_loop</span>
+  <audio controls src="raw/ambience/amb_sandbox_soft_loop_1.wav"></audio>
+  <span class="note">Water Splash and Sand Footsteps (CC0)</span>
+</div>
+</div>
+
+<div class="group">
+<h2>UI Navigation (3)</h2>
+<div class="file-card">
+  <span class="file-name">sfx_ui_next_soft</span>
+  <audio controls src="raw/sfx/sfx_ui_next_soft_1.wav"></audio>
+  <span class="note">RPG Sound Pack - interface1.wav (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_ui_back_soft</span>
+  <audio controls src="raw/sfx/sfx_ui_back_soft_1.wav"></audio>
+  <span class="note">RPG Sound Pack - interface2.wav (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_ui_disabled_soft</span>
+  <audio controls src="raw/sfx/sfx_ui_disabled_soft_1.wav"></audio>
+  <span class="note">GUI Sound Effects - negative_2.wav (CC0)</span>
+</div>
+</div>
+
+<div class="group">
+<h2>Dialogue & Text (3)</h2>
+<div class="file-card">
+  <span class="file-name">sfx_dialogue_box_appear</span>
+  <audio controls src="raw/sfx/sfx_dialogue_box_appear_1.wav"></audio>
+  <span class="note">Book Flip Sounds - BookFlip4.wav (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_text_type_soft</span>
+  <audio controls src="raw/sfx/sfx_text_type_soft_1.wav"></audio>
+  <span class="note">RPG Sound Pack - wood-small.wav (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_text_complete_soft</span>
+  <audio controls src="raw/sfx/sfx_text_complete_soft_1.wav"></audio>
+  <span class="note">GUI Sound Effects - positive.wav (CC0)</span>
+</div>
+</div>
+
+<div class="group">
+<h2>Choice System (5)</h2>
+<div class="file-card">
+  <span class="file-name">sfx_choice_panel_appear</span>
+  <audio controls src="raw/sfx/sfx_choice_panel_appear_1.wav"></audio>
+  <span class="note">Book Flip Sounds - BookFlip2.wav (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_choice_button_tap</span>
+  <audio controls src="raw/sfx/sfx_choice_button_tap_1.wav"></audio>
+  <span class="note">RPG Sound Pack - wood-small.wav (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_choice_positive_chime</span>
+  <audio controls src="raw/sfx/sfx_choice_positive_chime_1.wav"></audio>
+  <span class="note">GUI Sound Effects - positive.wav (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_choice_neutral_soft</span>
+  <audio controls src="raw/sfx/sfx_choice_neutral_soft_1.wav"></audio>
+  <span class="note">Project-owned (procedural)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_choice_negative_soft</span>
+  <audio controls src="raw/sfx/sfx_choice_negative_soft_1.wav"></audio>
+  <span class="note">Project-owned (procedural)</span>
+</div>
+</div>
+
+<div class="group">
+<h2>Emotion Feedback (6)</h2>
+<div class="file-card">
+  <span class="file-name">sfx_emotion_happy_soft</span>
+  <audio controls src="raw/sfx/sfx_emotion_happy_soft_1.wav"></audio>
+  <span class="note">Project-owned (procedural)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_emotion_relieved_breath</span>
+  <audio controls src="raw/sfx/sfx_emotion_relieved_breath_1.wav"></audio>
+  <span class="note">Project-owned (procedural)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_emotion_uncomfortable_soft</span>
+  <audio controls src="raw/sfx/sfx_emotion_uncomfortable_soft_1.wav"></audio>
+  <span class="note">Project-owned (procedural)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_emotion_annoyed_soft</span>
+  <audio controls src="raw/sfx/sfx_emotion_annoyed_soft_1.wav"></audio>
+  <span class="note">Project-owned (procedural)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_emotion_cry_soft</span>
+  <audio controls src="raw/sfx/sfx_emotion_cry_soft_1.wav"></audio>
+  <span class="note">Project-owned (procedural)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_emotion_upset_soft</span>
+  <audio controls src="raw/sfx/sfx_emotion_upset_soft_1.wav"></audio>
+  <span class="note">Project-owned (procedural)</span>
+</div>
+</div>
+
+<div class="group">
+<h2>Storybook (6)</h2>
+<div class="file-card">
+  <span class="file-name">sfx_storybook_open</span>
+  <audio controls src="raw/sfx/sfx_storybook_open_1.wav"></audio>
+  <span class="note">Book Flip Sounds - BookFlip3.wav (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_storybook_page_appear</span>
+  <audio controls src="raw/sfx/sfx_storybook_page_appear_1.wav"></audio>
+  <span class="note">Book Flip Sounds - book_flip.4.ogg (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_storybook_page_next</span>
+  <audio controls src="raw/sfx/sfx_storybook_page_next_1.wav"></audio>
+  <span class="note">Book Flip Sounds - book_flip.8.ogg (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_storybook_page_previous</span>
+  <audio controls src="raw/sfx/sfx_storybook_page_previous_1.wav"></audio>
+  <span class="note">Book Flip Sounds - book_flip.6.ogg (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_storybook_close</span>
+  <audio controls src="raw/sfx/sfx_storybook_close_1.wav"></audio>
+  <span class="note">Book Flip Sounds - BookFlip13.wav (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_lets_talk_card_appear</span>
+  <audio controls src="raw/sfx/sfx_lets_talk_card_appear_1.wav"></audio>
+  <span class="note">Book Flip Sounds - book_flip.1.ogg (CC0)</span>
+</div>
+</div>
+
+<div class="group">
+<h2>Gameplay Interaction (6)</h2>
+<div class="file-card">
+  <span class="file-name">sfx_footstep_grass_soft</span>
+  <audio controls src="raw/sfx/sfx_footstep_grass_soft_1.wav"></audio>
+  <span class="note">Different Steps - leaves01.ogg (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_footstep_sand_soft</span>
+  <audio controls src="raw/sfx/sfx_footstep_sand_soft_1.wav"></audio>
+  <span class="note">Water Splash and Sand Footsteps (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_joystick_drag_soft</span>
+  <audio controls src="raw/sfx/sfx_joystick_drag_soft_1.wav"></audio>
+  <span class="note">RPG Sound Pack - cloth-heavy.wav (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_interact_available_glow</span>
+  <audio controls src="raw/sfx/sfx_interact_available_glow_1.wav"></audio>
+  <span class="note">RPG Sound Pack - coin3.wav (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_interact_tap</span>
+  <audio controls src="raw/sfx/sfx_interact_tap_1.wav"></audio>
+  <span class="note">GUI Sound Effects - click_2.wav (CC0)</span>
+</div>
+<div class="file-card">
+  <span class="file-name">sfx_question_hint_tap</span>
+  <audio controls src="raw/sfx/sfx_question_hint_tap_1.wav"></audio>
+  <span class="note">GUI Sound Effects - misc_menu.wav (CC0)</span>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,42 +1,85 @@
-# Audio Cubby
+# Audio Cubby - Team Delivery
 
-Repository ini berisi riset kandidat audio untuk **Cubby**.
+**Latest commit**: 2026-07-09  
+**Status**: 34 audio files, all `needs_review`
 
-## Status Saat Ini
+---
 
-| Status | Jumlah |
+## Overview
+
+This repository contains copyright-safe audio research for the **Cubby** game. All assets are either CC0, Public Domain, or Project-owned.
+
+---
+
+## Quick Start
+
+1. **Play audio**: Open `audio_player.html` in your browser
+2. **Review**: Follow guide in `docs/TEAM_REVIEW_GUIDE.md`
+3. **Status**: See full table in `docs/AUDIO_VISUALIZATION.md`
+4. **Sources**: See CC0 sources in `docs/SOURCE_LIST.md`
+
+---
+
+## Current Status
+
+| Type | Count |
 |---|---:|
-| Accepted | 0 |
-| Needs review | 34 |
-| Missing | 0 |
-| Total asset | 34 |
+| BGM | 3 |
+| Ambience | 2 |
+| SFX | 29 |
+| **Total** | **34** |
 
-Semua 34 asset diproses dengan **advanced LUFS normalization** (EBU R128): BGM -18 LUFS, Ambience -24 LUFS, SFX -15/-19 LUFS. Semua file lolos technical QC dengan 0 failures. Fitur tambahan: lowpass filter (upset sound), 10ms fades, loop crossfade. Semua masih `needs_review` sampai lolos manual listening.
+**Manual listening required**: All assets remain `needs_review`
 
-## Folder
+---
 
-```text
-archive/        Arsip lama
-raw/            File audio kandidat
-raw/bgm/        Musik latar kandidat
-raw/ambience/   Suasana/ambience kandidat
-raw/sfx/        Efek suara UI, gameplay, emosi, dan storybook kandidat
-docs/           Semua dokumentasi, source, audit, prompt, dan handoff
+## Folder Structure
+
+```
+raw/
+  bgm/        3 background music files
+  ambience/   2 ambient sound files
+  sfx/        29 sound effect files
+docs/
+  AUDIO_VISUALIZATION.md   Full audio table with technical specs
+  TEAM_REVIEW_GUIDE.md     Manual listening checklist
+  SOURCE_LIST.md           CC0 source credits and policies
+audio_manifest.json        Full metadata (JSON)
+audio_player.html          HTML audio player for review
 ```
 
-## Dokumen Penting
+---
 
-- `docs/CUBBY_AUDIO_HANDOFF.md` — konteks utama untuk chat baru
-- `docs/CHAT_PROMPT.md` — prompt singkat untuk chat baru
-- `docs/audio_index.md` — daftar file dan status tiap asset
-- `docs/source_links.md` — tabel source valid dan link lisensi
-- `docs/final_audit.md` — hasil audit kecocokan suara
-- `docs/manual_listening_audit.md` — checklist audit dengar manual untuk kandidat review
-- `docs/candidate_audit_report.md` — ringkasan kandidat baru dan risiko audit
-- `docs/technical_audio_audit.md` — audit teknis audio
-- `docs/license_notes.md` — ringkasan sumber dan lisensi
-- `audio_manifest.json` — data lengkap semua asset
+## Audio Specifications
 
-## Catatan Integrasi
+- **Format**: 44.1kHz, 16-bit PCM WAV
+- **Peak normalized**: Max 87%
+- **Fades**: 10ms in/out
+- **No clipping**: Verified max peak 87.90%
 
-Jangan pindahkan ke project Cubby utama sebelum semua `missing` dan `needs_review` selesai dicek.
+---
+
+## Next Steps
+
+1. Open `audio_player.html` to listen to all files
+2. Follow `docs/TEAM_REVIEW_GUIDE.md` for checklist
+3. Update `audio_manifest.json` status per asset
+4. When all `accepted`, integrate into Cubby game
+
+---
+
+## Source Policy
+
+✅ **Allowed**: CC0, Public Domain, Project-owned  
+❌ **Prohibited**: Pixabay, Freesound, voice/crowd recordings
+
+See `docs/SOURCE_LIST.md` for full source credits.
+
+---
+
+## Recent Updates
+
+**2026-07-09**:
+- Replaced 9 SFX from verified CC0 sources
+- All audio files peak normalized, no clipping
+- Added HTML audio player for team review
