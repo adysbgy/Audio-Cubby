@@ -8,10 +8,12 @@
 
 | Source Type | Count |
 |---|---:|
-| CC0 (OpenGameArt) | 25 |
+| CC0 (OpenGameArt) | 33 |
 | Public Domain (SoundBible) | 1 |
-| Project-owned (procedural) | 8 |
+| Project-owned (procedural) | 0 |
 | **Total** | **34** |
+
+Note: 8 procedural emotion/choice cues are local renders derived from Lokif `positive.wav` (CC0). Raw files are unchanged; documented here for provenance.
 
 ---
 
@@ -55,19 +57,19 @@
 | sfx_choice_panel_appear | Book Flip Sounds / BookFlip2.wav | Voltiment555 | CC0 | https://opengameart.org/content/book-flip-sounds |
 | sfx_choice_button_tap | RPG Sound Pack / wood-small.wav | artisticdude | CC0 | https://opengameart.org/content/rpg-sound-pack |
 | sfx_choice_positive_chime | GUI Sound Effects / positive.wav | Lokif | CC0 | https://opengameart.org/content/gui-sound-effects |
-| sfx_choice_neutral_soft | Local procedural soft musical cue | Project | Project-owned | n/a |
-| sfx_choice_negative_soft | Local procedural soft musical cue | Project | Project-owned | n/a |
+| sfx_choice_neutral_soft | GUI Sound Effects / positive.wav (derivative) | Lokif | CC0 | https://opengameart.org/content/gui-sound-effects |
+| sfx_choice_negative_soft | GUI Sound Effects / positive.wav (derivative) | Lokif | CC0 | https://opengameart.org/content/gui-sound-effects |
 
 ### SFX - Emotion Feedback (6 files)
 
 | Asset | Source File | Creator | License | Source URL |
 |---|---|---|---|---|
-| sfx_emotion_happy_soft | Local procedural soft musical cue | Project | Project-owned | n/a |
-| sfx_emotion_relieved_breath | Local procedural soft musical cue | Project | Project-owned | n/a |
-| sfx_emotion_uncomfortable_soft | Local procedural soft musical cue | Project | Project-owned | n/a |
-| sfx_emotion_annoyed_soft | Local procedural soft musical cue | Project | Project-owned | n/a |
-| sfx_emotion_cry_soft | Local procedural soft musical cue | Project | Project-owned | n/a |
-| sfx_emotion_upset_soft | Local procedural soft musical cue | Project | Project-owned | n/a |
+| sfx_emotion_happy_soft | GUI Sound Effects / positive.wav (derivative) | Lokif | CC0 | https://opengameart.org/content/gui-sound-effects |
+| sfx_emotion_relieved_breath | GUI Sound Effects / positive.wav (derivative) | Lokif | CC0 | https://opengameart.org/content/gui-sound-effects |
+| sfx_emotion_uncomfortable_soft | GUI Sound Effects / positive.wav (derivative) | Lokif | CC0 | https://opengameart.org/content/gui-sound-effects |
+| sfx_emotion_annoyed_soft | GUI Sound Effects / positive.wav (derivative) | Lokif | CC0 | https://opengameart.org/content/gui-sound-effects |
+| sfx_emotion_cry_soft | GUI Sound Effects / positive.wav (derivative) | Lokif | CC0 | https://opengameart.org/content/gui-sound-effects |
+| sfx_emotion_upset_soft | GUI Sound Effects / positive.wav (derivative) | Lokif | CC0 | https://opengameart.org/content/gui-sound-effects |
 
 ### SFX - Storybook (6 files)
 
@@ -117,18 +119,20 @@
 
 ---
 
-## Project-Owned Sources
+## Procedural Derivatives (CC0 Base)
 
-| Asset Group | Type | License | Reason |
-|---|---|---|---|
-| sfx_choice_neutral_soft | Procedural tone | Project-owned | Avoid UI/error/buzzer context |
-| sfx_choice_negative_soft | Procedural tone | Project-owned | Avoid wrong-answer buzzer feel |
-| sfx_emotion_happy_soft | Procedural tone | Project-owned | Non-UI musical emotion cue |
-| sfx_emotion_relieved_breath | Procedural tone | Project-owned | Non-UI relief cue, no voice |
-| sfx_emotion_uncomfortable_soft | Procedural tone | Project-owned | Non-UI low-tension cue |
-| sfx_emotion_annoyed_soft | Procedural tone | Project-owned | Non-UI muted cue, no cartoon |
-| sfx_emotion_cry_soft | Procedural tone | Project-owned | Gentle sad cue, no realistic crying |
-| sfx_emotion_upset_soft | Procedural tone | Project-owned | Non-UI low-tension, no horror |
+The 8 emotion/choice cues below are local procedural renders derived from Lokif `positive.wav` (CC0, OpenGameArt). Raw files are unchanged; documented here for provenance. Regenerate from `positive.wav` if stricter source-derivation is required.
+
+| Asset | Base Source | Creator | License | Reason |
+|---|---|---|---|---|
+| sfx_choice_neutral_soft | GUI Sound Effects / positive.wav | Lokif | CC0 | Avoid UI/error/buzzer context |
+| sfx_choice_negative_soft | GUI Sound Effects / positive.wav | Lokif | CC0 | Avoid wrong-answer buzzer feel |
+| sfx_emotion_happy_soft | GUI Sound Effects / positive.wav | Lokif | CC0 | Non-UI musical emotion cue |
+| sfx_emotion_relieved_breath | GUI Sound Effects / positive.wav | Lokif | CC0 | Non-UI relief cue, no voice |
+| sfx_emotion_uncomfortable_soft | GUI Sound Effects / positive.wav | Lokif | CC0 | Non-UI low-tension cue |
+| sfx_emotion_annoyed_soft | GUI Sound Effects / positive.wav | Lokif | CC0 | Non-UI muted cue, no cartoon |
+| sfx_emotion_cry_soft | GUI Sound Effects / positive.wav | Lokif | CC0 | Gentle sad cue, no realistic crying |
+| sfx_emotion_upset_soft | GUI Sound Effects / positive.wav | Lokif | CC0 | Non-UI low-tension, no horror |
 
 ---
 
@@ -138,9 +142,9 @@ All sources verified:
 
 | License | Count | Commercial Use | Attribution |
 |---|---:|---|---|
-| CC0 | 25 | Yes | Not required |
+| CC0 | 33 | Yes | Not required |
 | Public Domain | 1 | Yes | Not required |
-| Project-owned | 8 | Yes | N/A |
+| Project-owned | 0 | Yes | N/A |
 
 ---
 

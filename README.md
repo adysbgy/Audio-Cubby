@@ -70,7 +70,7 @@ audio_player.html          HTML audio player for review
 
 ## Source Policy
 
-✅ **Allowed**: CC0, Public Domain, Project-owned  
+✅ **Allowed**: CC0, Public Domain. 8 procedural emotion/choice cues are CC0 derivatives of Lokif `positive.wav`.  
 ❌ **Prohibited**: Pixabay, Freesound, voice/crowd recordings
 
 See `docs/SOURCE_LIST.md` for full source credits.
@@ -83,3 +83,4 @@ See `docs/SOURCE_LIST.md` for full source credits.
 - Replaced 9 SFX from verified CC0 sources
 - All audio files peak normalized, no clipping
 - Added HTML audio player for team review
+- Documented 8 emotion/choice cues as CC0 derivatives of Lokif positive.wav (raw files unchanged)
