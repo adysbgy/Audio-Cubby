@@ -12,12 +12,6 @@
 
 ---
 
-## Source Provenance Note
-
-All 34 assets map to CC0 or Public Domain sources. The 8 emotion/choice cues (sfx_choice_neutral_soft, sfx_choice_negative_soft, sfx_emotion_happy_soft, sfx_emotion_relieved_breath, sfx_emotion_uncomfortable_soft, sfx_emotion_annoyed_soft, sfx_emotion_cry_soft, sfx_emotion_upset_soft) are local procedural renders derived from Lokif `positive.wav` (CC0, OpenGameArt). Raw files are unchanged; see `docs/SOURCE_LIST.md`.
-
----
-
 ## BGM (Background Music)
 
 | Asset | File | Duration | Peak | RMS | Status |
